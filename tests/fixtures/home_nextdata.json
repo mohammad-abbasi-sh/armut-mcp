@@ -1,0 +1,1075 @@
+{
+ "props": {
+  "pageProps": {
+   "data": {
+    "serviceGroups": [
+     {
+      "id": "4fbca6c3-dffc-431f-9113-d2848697cf92",
+      "groupId": 1,
+      "name": "Temizlik",
+      "slug": "temizlik"
+     },
+     {
+      "id": "d2cc7cd8-bc98-48fa-a9b0-e16b52613f9a",
+      "groupId": 2,
+      "name": "Tadilat",
+      "slug": "tadilat"
+     },
+     {
+      "id": "401f1adb-f524-423a-8646-481df5742313",
+      "groupId": 3,
+      "name": "Nakliyat",
+      "slug": "nakliyat"
+     },
+     {
+      "id": "63a40d71-cf45-4571-a46f-4b2fc441f13a",
+      "groupId": 4,
+      "name": "Tamir",
+      "slug": "tamir"
+     },
+     {
+      "id": "47f92f65-0e96-4ddd-9420-19b48e916deb",
+      "groupId": 5,
+      "name": "Özel Ders",
+      "slug": "ozel-ders"
+     },
+     {
+      "id": "0860cdad-02e6-47f0-883f-1068f256e8a0",
+      "groupId": 9,
+      "name": "Organizasyon",
+      "slug": "organizasyon"
+     }
+    ],
+    "hasOtherServiceGroups": true,
+    "services": {
+     "trending": [
+      {
+       "id": "88b30d2e-341f-4d40-bdb8-cf58cce5ebf5",
+       "serviceId": 142,
+       "name": "Evden Eve Nakliyat",
+       "image": "00142-evden-eve-nakliyat.jpeg",
+       "slug": "evden-eve-nakliyat",
+       "proCount": 3093,
+       "ratingAverage": 4.9,
+       "verifiedReviewsCount": 205901,
+       "businessModel": 1
+      },
+      {
+       "id": "79fe0486-3a18-4475-9d38-23dd6f165fae",
+       "serviceId": 32,
+       "name": "Boya Badana",
+       "image": "00032-boyaci-boya-badana-ustasi.jpg",
+       "slug": "boyaci-boya-badana-ustasi",
+       "proCount": 12450,
+       "ratingAverage": 4.8,
+       "verifiedReviewsCount": 130184,
+       "businessModel": 1
+      },
+      {
+       "id": "6b756f83-7311-4c75-ad32-50e649d45a73",
+       "serviceId": 191,
+       "name": "Ev Temizliği",
+       "image": "00191-ev-temizligi_thumb_875x500.jpg",
+       "slug": "ev-temizligi",
+       "proCount": 10141,
+       "ratingAverage": 4.6,
+       "verifiedReviewsCount": 415591,
+       "businessModel": 2
+      },
+      {
+       "id": "9a47882c-07f2-4f01-8201-a239d2c5d9a7",
+       "serviceId": 669,
+       "name": "Boş Ev Temizliği",
+       "image": "00669-bos-ev-temizligi.jpg",
+       "slug": "bos-ev-temizligi",
+       "proCount": 6323,
+       "ratingAverage": 4.6,
+       "verifiedReviewsCount": 50315,
+       "businessModel": 1
+      },
+      {
+       "id": "642bd299-f265-4271-a49c-ce26782ae09a",
+       "serviceId": 4367,
+       "name": "Koltuk Taşıma",
+       "image": "04367-koltuk-tasima.jpeg",
+       "slug": "koltuk-tasima",
+       "proCount": 4779,
+       "ratingAverage": 4.9,
+       "verifiedReviewsCount": 103290,
+       "businessModel": 1
+      },
+      {
+       "id": "fa30e1e3-512e-46fb-bbf6-00e90216fd58",
+       "serviceId": 111,
+       "name": "Mutfak Dolabı Yapımı",
+       "image": "00111-mutfak-dolabi-yapimi.jpg",
+       "slug": "mutfak-dolabi-yapimi",
+       "proCount": 5815,
+       "ratingAverage": 4.6,
+       "verifiedReviewsCount": 11531,
+       "businessModel": 1
+      },
+      {
+       "id": "293909ef-ef34-4107-984e-9e0dff1ed3f2",
+       "serviceId": 266,
+       "name": "Fayans Döşeme",
+       "image": "00266-fayans-seramik-doseme.jpg",
+       "slug": "fayans-doseme",
+       "proCount": 7528,
+       "ratingAverage": 4.7,
+       "verifiedReviewsCount": 25106,
+       "businessModel": 1
+      },
+      {
+       "id": "d2837edf-26b2-4761-9b2d-a871f1c72b88",
+       "serviceId": 2045,
+       "name": "Ev Tadilat",
+       "image": "02045-ev-tadilat.jpg",
+       "slug": "ev-tadilat",
+       "proCount": 7404,
+       "ratingAverage": 4.5,
+       "verifiedReviewsCount": 7277,
+       "businessModel": 1
+      },
+      {
+       "id": "f73c04fc-8985-4a96-abec-27c836f29004",
+       "serviceId": 3579,
+       "name": "Eşya Taşıma",
+       "image": "03579-parca-esya-tasima.jpeg",
+       "slug": "parca-esya-tasima",
+       "proCount": 6483,
+       "ratingAverage": 4.9,
+       "verifiedReviewsCount": 95705,
+       "businessModel": 1
+      },
+      {
+       "id": "e4b088f3-8aac-46cb-b8bf-c58858a60eda",
+       "serviceId": 65920,
+       "name": "Hastane Refakatçisi",
+       "image": "00241-hasta-ve-yasli-bakimi.jpg",
+       "slug": "hastane-refakatcisi",
+       "proCount": 1121,
+       "ratingAverage": 4.8,
+       "verifiedReviewsCount": 2903,
+       "businessModel": 1
+      },
+      {
+       "id": "b4ec6f69-b350-4944-9040-4714ba143bcd",
+       "serviceId": 515,
+       "name": "Online Psikolog",
+       "image": "00515-online-psikolog.jpg",
+       "slug": "online-psikolog",
+       "proCount": 2659,
+       "ratingAverage": 4.9,
+       "verifiedReviewsCount": 17208,
+       "businessModel": 1
+      },
+      {
+       "id": "ebae78f2-7d7c-40c2-b950-76e5bfa09be6",
+       "serviceId": 274,
+       "name": "Direksiyon Dersi",
+       "image": "00274-direksiyon-ozel-ders.jpg",
+       "slug": "direksiyon-dersi",
+       "proCount": 2912,
+       "ratingAverage": 4.9,
+       "verifiedReviewsCount": 31981,
+       "businessModel": 1
+      }
+     ],
+     "popular": [
+      {
+       "id": "2f093993-626b-4e8f-8c27-6a96c5da635e",
+       "name": "Boş Ev Temizliği",
+       "slug": "bos-ev-temizligi"
+      },
+      {
+       "id": "ce1ddeb5-a081-40e8-83f9-9f967d053b60",
+       "name": "Boyacı (Boya Badana Ustası)",
+       "slug": "boyaci-boya-badana-ustasi"
+      },
+      {
+       "id": "ff3b5ba9-6956-4065-b31a-a992c8b7a516",
+       "name": "Cam Balkon",
+       "slug": "cam-balkon"
+      },
+      {
+       "id": "9df1c105-d065-471a-8190-0290b2d30c3e",
+       "name": "Demirdöküm Kombi Servisi",
+       "slug": "demirdokum-kombi-servisi"
+      },
+      {
+       "id": "d1094ee5-5a62-4b94-afe5-e7890ebb4516",
+       "name": "Direksiyon Dersi",
+       "slug": "direksiyon-dersi"
+      },
+      {
+       "id": "f04da93d-611b-48dc-bf92-67fb2794c960",
+       "name": "Duşakabin",
+       "slug": "dusakabin"
+      },
+      {
+       "id": "c57d20aa-3aa5-4776-86e7-7d227cef2f9e",
+       "name": "Duvar Dekorasyon",
+       "slug": "duvar-dekorasyon"
+      },
+      {
+       "id": "117a9ed9-10d7-4216-abda-b3a53beef131",
+       "name": "ECA Kombi Servisi",
+       "slug": "eca-kombi-servisi"
+      },
+      {
+       "id": "297daedd-553c-4f1e-a5c4-6405e7ff430f",
+       "name": "Parça Eşya Taşıma",
+       "slug": "parca-esya-tasima"
+      },
+      {
+       "id": "e8dca515-e814-4ab6-9942-c80c9fd151fe",
+       "name": "Ev Dekorasyon",
+       "slug": "ev-dekorasyon"
+      },
+      {
+       "id": "cc535c2f-b232-4a1a-8fa6-3f941df73040",
+       "name": "Ev Temizliği",
+       "slug": "ev-temizligi"
+      },
+      {
+       "id": "e23317e0-3162-40b3-bdb3-ac77b822a318",
+       "name": "Evden Eve Nakliyat",
+       "slug": "evden-eve-nakliyat"
+      },
+      {
+       "id": "f157800d-99b9-4e13-834f-a20620727822",
+       "name": "Fayans Döşeme",
+       "slug": "fayans-doseme"
+      },
+      {
+       "id": "c3f7971f-2d78-4109-bb88-1afc0e0e1082",
+       "name": "Halı Yıkama Temizleme",
+       "slug": "hali-yikama-temizleme"
+      },
+      {
+       "id": "adff7636-3f92-4b59-b481-61041ea2c7f4",
+       "name": "İç Mimar",
+       "slug": "ic-mimar"
+      },
+      {
+       "id": "a4b1d39b-0c04-4e2c-832d-bc47645ab9a3",
+       "name": "İngilizce Özel Ders",
+       "slug": "ingilizce-ozel-ders"
+      },
+      {
+       "id": "d402a12a-bb92-46b9-b3a5-8701d20e9677",
+       "name": "Klima Servisi",
+       "slug": "klima-servisi"
+      },
+      {
+       "id": "8e7b1f84-524f-4080-b990-82088b74f014",
+       "name": "Koltuk Yıkama Temizleme",
+       "slug": "koltuk-yikama-temizleme"
+      },
+      {
+       "id": "375bdf94-6abf-41a5-a62d-1e0925a446d0",
+       "name": "Kombi Servisi",
+       "slug": "kombi-servisi"
+      },
+      {
+       "id": "38fe9fe0-859b-484c-bb70-a5a99e0a8bfb",
+       "name": "Mutfak Dekorasyon",
+       "slug": "mutfak-dekorasyon"
+      },
+      {
+       "id": "28a456bf-22a8-4afd-af51-55bc10d0c714",
+       "name": "Mutfak Dolabı",
+       "slug": "mutfak-dolabi"
+      },
+      {
+       "id": "be88d8b0-6b32-483c-8d13-b4f84bbff39e",
+       "name": "Nakliye",
+       "slug": "nakliye"
+      },
+      {
+       "id": "f79e74fa-28e5-45ed-9e1f-a677d51c7d32",
+       "name": "Özel Ders",
+       "slug": "ozel-ders"
+      },
+      {
+       "id": "e34dcc32-01f0-41d3-b99b-37b80ee32846",
+       "name": "Vaillant Kombi Servisi",
+       "slug": "vaillant-kombi-servisi"
+      }
+     ],
+     "nearMe": [
+      {
+       "id": "6939a182-e58b-44f3-9f33-a6e3c892bba1",
+       "areaLevel1Id": 34,
+       "areaLevel1Name": "İstanbul",
+       "slug": "istanbul-34"
+      },
+      {
+       "id": "db65a15c-e604-490b-a9a8-3a36e85b74c8",
+       "areaLevel1Id": 6,
+       "areaLevel1Name": "Ankara",
+       "slug": "ankara-6"
+      },
+      {
+       "id": "9650f947-c78b-4713-8535-e3136b3bf0cf",
+       "areaLevel1Id": 35,
+       "areaLevel1Name": "İzmir",
+       "slug": "izmir-35"
+      },
+      {
+       "id": "b16ee3f8-7ea9-410a-b05d-f8dc36b6fcdc",
+       "areaLevel1Id": 1,
+       "areaLevel1Name": "Adana",
+       "slug": "adana-1"
+      },
+      {
+       "id": "a57d1612-d676-410e-be2c-3812d0192526",
+       "areaLevel1Id": 3,
+       "areaLevel1Name": "Afyon",
+       "slug": "afyon-3"
+      },
+      {
+       "id": "84d2e116-d544-4823-894d-84fe47b8dfc9",
+       "areaLevel1Id": 68,
+       "areaLevel1Name": "Aksaray",
+       "slug": "aksaray-68"
+      },
+      {
+       "id": "33e96e5a-62bd-489c-abd1-5da7f8a6e6d5",
+       "areaLevel1Id": 5,
+       "areaLevel1Name": "Amasya",
+       "slug": "amasya-5"
+      },
+      {
+       "id": "79b3c9f3-9ddc-4a1e-9455-259ed719cda6",
+       "areaLevel1Id": 7,
+       "areaLevel1Name": "Antalya",
+       "slug": "antalya-7"
+      },
+      {
+       "id": "390a29cb-61ca-41bd-bbb9-1192fe29c741",
+       "areaLevel1Id": 9,
+       "areaLevel1Name": "Aydın",
+       "slug": "aydin-9"
+      },
+      {
+       "id": "df34e43b-389b-4246-89a5-837fcec91742",
+       "areaLevel1Id": 10,
+       "areaLevel1Name": "Balıkesir",
+       "slug": "balikesir-10"
+      },
+      {
+       "id": "a4efebca-0d52-497d-b1a9-a1c92ca10586",
+       "areaLevel1Id": 74,
+       "areaLevel1Name": "Bartın",
+       "slug": "bartin-74"
+      },
+      {
+       "id": "13ed0408-cb87-4a58-b96a-e9a54f2e4253",
+       "areaLevel1Id": 72,
+       "areaLevel1Name": "Batman",
+       "slug": "batman-72"
+      },
+      {
+       "id": "b7b25c52-082d-45b9-8841-c7114b7e1d08",
+       "areaLevel1Id": 14,
+       "areaLevel1Name": "Bolu",
+       "slug": "bolu-14"
+      },
+      {
+       "id": "7d9bf8b1-19d9-49d8-8bc0-38d49f008798",
+       "areaLevel1Id": 15,
+       "areaLevel1Name": "Burdur",
+       "slug": "burdur-15"
+      },
+      {
+       "id": "6d3ec289-b437-4b5a-bd0a-1eaa1dd3dab0",
+       "areaLevel1Id": 16,
+       "areaLevel1Name": "Bursa",
+       "slug": "bursa-16"
+      },
+      {
+       "id": "edf56501-286c-4bdd-a82e-cdd93c43d0c1",
+       "areaLevel1Id": 17,
+       "areaLevel1Name": "Çanakkale",
+       "slug": "canakkale-17"
+      },
+      {
+       "id": "30279057-7ea6-4fd3-a1f5-2850cdb39008",
+       "areaLevel1Id": 19,
+       "areaLevel1Name": "Çorum",
+       "slug": "corum-19"
+      },
+      {
+       "id": "6a8412f0-eeca-4b9a-848d-ed6c9a7253d3",
+       "areaLevel1Id": 20,
+       "areaLevel1Name": "Denizli",
+       "slug": "denizli-20"
+      },
+      {
+       "id": "2b803312-6fbd-483e-a288-585cf30196ba",
+       "areaLevel1Id": 21,
+       "areaLevel1Name": "Diyarbakır",
+       "slug": "diyarbakir-21"
+      },
+      {
+       "id": "91e3a08b-366c-41e5-8b02-1d92b73d3b3a",
+       "areaLevel1Id": 81,
+       "areaLevel1Name": "Düzce",
+       "slug": "duzce-81"
+      },
+      {
+       "id": "2a68c77c-a736-469a-be6f-a08ebf7a01b8",
+       "areaLevel1Id": 22,
+       "areaLevel1Name": "Edirne",
+       "slug": "edirne-22"
+      },
+      {
+       "id": "b4413eeb-fc29-44f3-87fb-ceab933beb13",
+       "areaLevel1Id": 23,
+       "areaLevel1Name": "Elazığ",
+       "slug": "elazig-23"
+      },
+      {
+       "id": "f6683c7a-a57c-49e3-8f98-4ea42386df7b",
+       "areaLevel1Id": 24,
+       "areaLevel1Name": "Erzincan",
+       "slug": "erzincan-24"
+      },
+      {
+       "id": "f27792a4-2108-45c9-87ea-13e422883022",
+       "areaLevel1Id": 25,
+       "areaLevel1Name": "Erzurum",
+       "slug": "erzurum-25"
+      },
+      {
+       "id": "8ae95a4d-83e5-441e-83bd-7d25e8160ff4",
+       "areaLevel1Id": 26,
+       "areaLevel1Name": "Eskişehir",
+       "slug": "eskisehir-26"
+      },
+      {
+       "id": "b7864430-ea6b-4392-83ef-bff7e80e8b36",
+       "areaLevel1Id": 27,
+       "areaLevel1Name": "Gaziantep",
+       "slug": "gaziantep-27"
+      },
+      {
+       "id": "ca10eafe-985d-4174-bece-35ff6e0f3bbd",
+       "areaLevel1Id": 28,
+       "areaLevel1Name": "Giresun",
+       "slug": "giresun-28"
+      },
+      {
+       "id": "5783efa4-d8ff-44dd-8d38-3e4fd6e25079",
+       "areaLevel1Id": 31,
+       "areaLevel1Name": "Hatay",
+       "slug": "hatay-31"
+      },
+      {
+       "id": "cf2f8330-2c31-4f0b-9357-b41566fd25db",
+       "areaLevel1Id": 32,
+       "areaLevel1Name": "Isparta",
+       "slug": "isparta-32"
+      },
+      {
+       "id": "0c96f152-478c-441b-8f39-ed4b8bf29dd4",
+       "areaLevel1Id": 46,
+       "areaLevel1Name": "Kahramanmaraş",
+       "slug": "kahramanmaras-46"
+      },
+      {
+       "id": "5e02adb8-75b4-4f15-93fc-25b69a489e0f",
+       "areaLevel1Id": 78,
+       "areaLevel1Name": "Karabük",
+       "slug": "karabuk-78"
+      },
+      {
+       "id": "cf71e7af-0a0d-4a6d-86c3-c8833fbeb60a",
+       "areaLevel1Id": 70,
+       "areaLevel1Name": "Karaman",
+       "slug": "karaman-70"
+      },
+      {
+       "id": "c3ab1d31-93f8-4cff-8b48-bd4637cb39f8",
+       "areaLevel1Id": 37,
+       "areaLevel1Name": "Kastamonu",
+       "slug": "kastamonu-37"
+      },
+      {
+       "id": "06611374-623f-44dc-8f4a-cd3935c1a115",
+       "areaLevel1Id": 38,
+       "areaLevel1Name": "Kayseri",
+       "slug": "kayseri-38"
+      },
+      {
+       "id": "a4488f82-370a-44cb-b51b-bae010e421c5",
+       "areaLevel1Id": 71,
+       "areaLevel1Name": "Kırıkkale",
+       "slug": "kirikkale-71"
+      },
+      {
+       "id": "ac7ec3ac-dcb4-46b7-a3bc-174728426609",
+       "areaLevel1Id": 39,
+       "areaLevel1Name": "Kırklareli",
+       "slug": "kirklareli-39"
+      },
+      {
+       "id": "b1c6160d-00c2-4833-a4c6-f9d18e7b4551",
+       "areaLevel1Id": 40,
+       "areaLevel1Name": "Kırşehir",
+       "slug": "kirsehir-40"
+      },
+      {
+       "id": "04e5f185-07a4-480e-afa1-70523c7740ae",
+       "areaLevel1Id": 41,
+       "areaLevel1Name": "Kocaeli",
+       "slug": "kocaeli-41"
+      },
+      {
+       "id": "6d449c40-690a-4aa0-9c79-977ef7c720c3",
+       "areaLevel1Id": 42,
+       "areaLevel1Name": "Konya",
+       "slug": "konya-42"
+      },
+      {
+       "id": "06351c92-0b74-491f-9cc6-1eb64ff1db02",
+       "areaLevel1Id": 43,
+       "areaLevel1Name": "Kütahya",
+       "slug": "kutahya-43"
+      },
+      {
+       "id": "f9b428ea-0077-4d9a-b97b-06e33d714cd4",
+       "areaLevel1Id": 44,
+       "areaLevel1Name": "Malatya",
+       "slug": "malatya-44"
+      },
+      {
+       "id": "4133c627-5b22-46cf-b447-02192576fa1b",
+       "areaLevel1Id": 45,
+       "areaLevel1Name": "Manisa",
+       "slug": "manisa-45"
+      },
+      {
+       "id": "08fcbdc9-36c8-412c-bdcc-39ace29058f2",
+       "areaLevel1Id": 33,
+       "areaLevel1Name": "Mersin",
+       "slug": "mersin-33"
+      },
+      {
+       "id": "c50621dc-5b55-4d32-a2f1-826953b461f6",
+       "areaLevel1Id": 48,
+       "areaLevel1Name": "Muğla",
+       "slug": "mugla-48"
+      },
+      {
+       "id": "55c8ab5f-3972-4c4c-8a33-9e0652812db3",
+       "areaLevel1Id": 50,
+       "areaLevel1Name": "Nevşehir",
+       "slug": "nevsehir-50"
+      },
+      {
+       "id": "9f1a18e9-94ae-47d8-93a8-2af32fdf3300",
+       "areaLevel1Id": 52,
+       "areaLevel1Name": "Ordu",
+       "slug": "ordu-52"
+      },
+      {
+       "id": "e240fdc8-de95-440d-aa92-24116972296b",
+       "areaLevel1Id": 80,
+       "areaLevel1Name": "Osmaniye",
+       "slug": "osmaniye-80"
+      },
+      {
+       "id": "d2191b52-bdf6-497c-beff-143e7bf32932",
+       "areaLevel1Id": 53,
+       "areaLevel1Name": "Rize",
+       "slug": "rize-53"
+      },
+      {
+       "id": "448d7a1d-310c-4d2b-a043-faec5555c468",
+       "areaLevel1Id": 54,
+       "areaLevel1Name": "Sakarya",
+       "slug": "sakarya-54"
+      },
+      {
+       "id": "7ddd0614-884c-4cfe-b060-2be1362e1d87",
+       "areaLevel1Id": 55,
+       "areaLevel1Name": "Samsun",
+       "slug": "samsun-55"
+      },
+      {
+       "id": "b5919a46-3dde-402d-a4c8-a7c154d5afa2",
+       "areaLevel1Id": 58,
+       "areaLevel1Name": "Sivas",
+       "slug": "sivas-58"
+      },
+      {
+       "id": "0849bb90-49bd-492f-b190-fed6a17f8300",
+       "areaLevel1Id": 59,
+       "areaLevel1Name": "Tekirdağ",
+       "slug": "tekirdag-59"
+      },
+      {
+       "id": "865ebefe-a876-4832-8c21-6b043be9d8e3",
+       "areaLevel1Id": 60,
+       "areaLevel1Name": "Tokat",
+       "slug": "tokat-60"
+      },
+      {
+       "id": "7f1ae329-e36c-419d-b53d-5b773ac2cd21",
+       "areaLevel1Id": 61,
+       "areaLevel1Name": "Trabzon",
+       "slug": "trabzon-61"
+      },
+      {
+       "id": "155728f7-94ea-4ab7-96ad-c03250b03b94",
+       "areaLevel1Id": 64,
+       "areaLevel1Name": "Uşak",
+       "slug": "usak-64"
+      },
+      {
+       "id": "8d827fd4-1ee4-4ca4-bd01-502665942771",
+       "areaLevel1Id": 65,
+       "areaLevel1Name": "Van",
+       "slug": "van-65"
+      },
+      {
+       "id": "5ec4fd98-bdf8-4194-95b6-e5f4cb0a241d",
+       "areaLevel1Id": 77,
+       "areaLevel1Name": "Yalova",
+       "slug": "yalova-77"
+      },
+      {
+       "id": "3b18e9eb-8bcd-4060-89cc-662353ddc79f",
+       "areaLevel1Id": 67,
+       "areaLevel1Name": "Zonguldak",
+       "slug": "zonguldak-67"
+      }
+     ],
+     "mostSearched": [
+      {
+       "id": "150c04a3-62de-411b-839e-6414f09b1c9c",
+       "areaLevel1Name": "İstanbul",
+       "serviceName": "Boş Ev Temizliği",
+       "slug": "istanbul-bos-ev-temizligi"
+      },
+      {
+       "id": "6df4fe24-90ed-49b3-a6e4-53fc32e2a704",
+       "areaLevel1Name": "İstanbul",
+       "serviceName": "Boyacı (Boya Badana Ustası)",
+       "slug": "istanbul-boyaci-boya-badana-ustasi"
+      },
+      {
+       "id": "69c3e432-c464-4538-8260-7aad1d2da188",
+       "areaLevel1Name": "Ankara",
+       "serviceName": "Boyacı (Boya Badana Ustası)",
+       "slug": "ankara-boyaci-boya-badana-ustasi"
+      },
+      {
+       "id": "bf99e965-fea5-4bde-8233-50849df5b7f6",
+       "areaLevel1Name": "İstanbul",
+       "serviceName": "Parça Eşya Taşıma",
+       "slug": "istanbul-parca-esya-tasima"
+      },
+      {
+       "id": "a470e953-5459-436a-9b10-f9785a5ce47d",
+       "areaLevel1Name": "İstanbul",
+       "serviceName": "Ev Temizliği",
+       "slug": "istanbul-ev-temizligi"
+      },
+      {
+       "id": "4a38426d-ba0b-4744-a056-a65107bc7ba5",
+       "areaLevel1Name": "İstanbul",
+       "serviceName": "Evden Eve Nakliyat",
+       "slug": "istanbul-evden-eve-nakliyat"
+      },
+      {
+       "id": "7e392177-90c3-4302-a2bb-aa0f4680e250",
+       "areaLevel1Name": "Ankara",
+       "serviceName": "Evden Eve Nakliyat",
+       "slug": "ankara-evden-eve-nakliyat"
+      },
+      {
+       "id": "50df60a6-4788-48af-8820-15c5e109d5a2",
+       "areaLevel1Name": "İzmir",
+       "serviceName": "Evden Eve Nakliyat",
+       "slug": "izmir-evden-eve-nakliyat"
+      }
+     ]
+    },
+    "hasServiceRows": false
+   },
+   "queryDehydratedState": {
+    "mutations": [],
+    "queries": [
+     {
+      "dehydratedAt": 1793880461677,
+      "state": {
+       "data": {
+        "homepage.guaranteebanner.armut.cta": "Daha fazlasını öğren",
+        "homepage.guaranteebanner.armut.description": "Gönül rahatlığıyla hizmet alman için, Armut'tan teklif seçimi yaptığın işler garantimiz altında.",
+        "homepage.guaranteebanner.armut.title": "Armut Garantisi",
+        "homepage.hero.headline": "Hizmet Piş, Ağzıma Düş",
+        "homepage.hero.subheadline": "İhtiyacın olan hizmete kolayca ulaş, bekleyen işlerini hallet.",
+        "homepage.howitworks.step.1.description": "İhtiyacına özel soruları cevapla ve iletişim bilgilerini gir. İstersen iletişim bilgilerini gizli tut.",
+        "homepage.howitworks.step.1.title": "İhtiyacını birkaç soruda anlat",
+        "homepage.howitworks.step.2.description": "İşinle ilgilenen ve müsait olan profesyonellere ihtiyacını bildirelim, ihtiyacına özel teklif al.",
+        "homepage.howitworks.step.2.title": "Özel fiyat teklifleri al",
+        "homepage.howitworks.step.3.description": "Müşteri yorumlarını incele, pazarlık yap. En uygun fiyat ve kaliteyi tercih et.",
+        "homepage.howitworks.step.3.title": "Karşılaştır ve seç",
+        "homepage.howitworks.title": "Nasıl çalışır?",
+        "homepage.popularCategories.title": "Popüler Kategoriler",
+        "homepage.popularServices.title": "Popüler Hizmetler",
+        "homepage.press.title": "Bizden bahsediyorlar",
+        "homepage.pricePageLinks.label": "Tüm hizmetlerin fiyatlarını keşfet",
+        "homepage.pricePageLinks.labelWithServiceName": "{{serviceName}} Fiyatları",
+        "homepage.pricePageLinks.labelWithServiceNameAndArea": "{{areaName}} {{serviceName}} Fiyatları",
+        "homepage.pricePageLinks.title": "En iyi fiyatlar ^^{{brand}}^^'ta seni bekliyor",
+        "homepage.prosignupbanner.cta": "Ücretsiz üye ol",
+        "homepage.prosignupbanner.description": "Her ay 500.000 {{brand}} müşterisi hizmet veren arıyor. Daha çok müşteriye ulaş, daha çok kazan.",
+        "homepage.prosignupbanner.title": "Hizmet veren olarak katıl",
+        "homepage.searchbanner.cta": "Ara",
+        "homepage.searchbanner.description": "Teklifler hızla gelsin, zamanın sevdiklerinle sana kalsın.",
+        "homepage.searchbanner.title": "Hayatını kolaylaştır",
+        "homepage.searchbar.placeholderText.default": "Hangi hizmete ihtiyacın var?",
+        "homepage.searchbar.placeholderText.focus": "örn. mutfak dolabı yapımı",
+        "homepage.searchbar.searchButton.cta": "Ara",
+        "homepage.searchbar.suggestionsTitle.popular": "Popüler Hizmetler",
+        "homepage.searchbar.suggestionsTitle.suggested": "Önerilen hizmetler",
+        "homepage.seo.copyright": "© {{currentYear}} {{brand}} and Armut Teknoloji",
+        "homepage.seo.description": "{{brand}}. Temizlik, tadilat, nakliyat, usta, fotoğrafçı gibi alanlarda hizmet almanın kolay yolu. Hizmet piş, ağzıma düş!",
+        "homepage.seo.title": "{{brand}}: Hizmet Piş, Ağzıma Düş",
+        "homepage.serviceGroups.other": "Diğer",
+        "homepage.servicesnearme.title": "En Yakın Hizmetler",
+        "homepage.trendingservices.title": "Haftanın Trend Hizmetleri",
+        "homepage.valuepropositions.assurance.description": "Gönül rahatlığıyla hizmet alman için, Armut'tan teklif seçimi yaptığın işler garantimiz altında.",
+        "homepage.valuepropositions.assurance.title": "Garantide Ol",
+        "homepage.valuepropositions.quality.description": "Teklif aldığın hizmet verenlerin kalitesini daha önceki işlerinde aldıkları gerçek müşteri yorumları sayesinde görür, güvenle kararını verirsin.",
+        "homepage.valuepropositions.quality.title": "Kaliteli Hizmet Al",
+        "homepage.valuepropositions.time.description": "Aradığın hizmet için dükkan dükkan dolaşmak ya da tanıdıklarından referans almakla uğraşma. Teklifler cebine gelsin, zamanın sevdiklerinle sana kalsın.",
+        "homepage.valuepropositions.time.title": "Zaman Kazan",
+        "homepage.valuepropositions.use.description": "Hizmet alacağın servis için özel hazırlanmış sorulara bir dakika içinde cevap ver, bekleyen işlerini kolayca hallet.",
+        "homepage.valuepropositions.use.title": "Kolayca Kullan"
+       },
+       "dataUpdateCount": 1,
+       "dataUpdatedAt": 1793880461655,
+       "error": null,
+       "errorUpdateCount": 0,
+       "errorUpdatedAt": 0,
+       "fetchFailureCount": 0,
+       "fetchFailureReason": null,
+       "fetchMeta": null,
+       "isInvalidated": false,
+       "status": "success",
+       "fetchStatus": "idle"
+      },
+      "queryKey": [
+       "translations",
+       "consumer-acquisition-homepage",
+       "tr-TR"
+      ],
+      "queryHash": "[\"translations\",\"consumer-acquisition-homepage\",\"tr-TR\"]"
+     },
+     {
+      "dehydratedAt": 1793880461677,
+      "state": {
+       "data": {
+        "public.pages.appdownloadbanner.description": "{{brand}} uygulamasını ücretsiz indir, teklifleri anında gör ve hizmet verenlerle kolayca konuş.",
+        "public.pages.appdownloadbanner.title": "Hemen indir, işlerini hallet!",
+        "public.pages.footer.copyright": "© 2011 - {{currentYear}} {{brand}} Teknoloji A.Ş. Tüm hakları saklıdır.",
+        "public.pages.footer.links.aboutUs.label": "Hakkımızda",
+        "public.pages.footer.links.blog.label": "Blog",
+        "public.pages.footer.links.callCenterInformation.label": "Çağrı Merkezi Aydınlatma Metni",
+        "public.pages.footer.links.careers.label": "Kariyer",
+        "public.pages.footer.links.contacts.label": "İletişim",
+        "public.pages.footer.links.howItWorks.label": "Nasıl Çalışır?",
+        "public.pages.footer.links.impressum.label": "{{brand}} impressum",
+        "public.pages.footer.links.information-security.label": "Bilgi Güvenliği Çerçeve Politikası",
+        "public.pages.footer.links.nearMe.label": "En Yakın",
+        "public.pages.footer.links.privacyPolicy.label": "Gizlilik ve Kişisel Verilerin Korunması Politikası",
+        "public.pages.footer.links.userAgreement.label": "Kullanıcı Sözleşmesi",
+        "public.pages.footer.proSignup": "Hizmet ver",
+        "public.pages.footer.section.mostSearched.title": "En Çok Aranan",
+        "public.pages.footer.section.prices.labelWithServiceName": "{{serviceName}} Fiyatları",
+        "public.pages.footer.section.prices.title": "Fiyatlar",
+        "public.pages.footer.section.professionals.title": "Hizmetler",
+        "public.pages.header.button.menu": "Menü",
+        "public.pages.header.buttonLink.account": "Hesabım",
+        "public.pages.header.buttonLink.help": "Yardım",
+        "public.pages.header.buttonLink.login": "Giriş",
+        "public.pages.header.buttonLink.logout": "Çıkış",
+        "public.pages.header.buttonLink.myJobs": "İşlerim",
+        "public.pages.header.buttonLink.myOpportunities": "Fırsatlar",
+        "public.pages.header.buttonLink.proSignup": "Hizmet ver",
+        "public.pages.header.menu.accountSettings.consumer": "Hesabım",
+        "public.pages.header.menu.accountSettings.pro": "Ayarlar",
+        "public.pages.header.menu.help": "Yardım",
+        "public.pages.header.menu.logout": "Çıkış",
+        "public.pages.serviceGrid.cta.bookNow": "Rezervasyon",
+        "public.pages.serviceGrid.cta.quote": "Teklif al",
+        "public.pages.serviceGrid.trustfulNumbers.numberOfProviders": "{{value}} profesyonel",
+        "public.pages.serviceGrid.trustfulNumbers.verifiedReviews": "{{rating}} ({{numberOfReviews}} onaylı yorum)"
+       },
+       "dataUpdateCount": 1,
+       "dataUpdatedAt": 1793880461655,
+       "error": null,
+       "errorUpdateCount": 0,
+       "errorUpdatedAt": 0,
+       "fetchFailureCount": 0,
+       "fetchFailureReason": null,
+       "fetchMeta": null,
+       "isInvalidated": false,
+       "status": "success",
+       "fetchStatus": "idle"
+      },
+      "queryKey": [
+       "translations",
+       "public-pages-ui",
+       "tr-TR"
+      ],
+      "queryHash": "[\"translations\",\"public-pages-ui\",\"tr-TR\"]"
+     },
+     {
+      "dehydratedAt": 1793880461677,
+      "state": {
+       "data": {
+        "error404.emptyStates.main.cta.label": "Ana sayfaya git",
+        "error404.emptyStates.main.description": "Üzgünüz, aradığınız sayfayı bulamadık.",
+        "error404.emptyStates.main.title": "Sayfa bulunamadı",
+        "error404.emptyStates.somethingWentWrong.cta.label": "Sayfayı yeniden yükle",
+        "error404.emptyStates.somethingWentWrong.description": "Sayfayı yükleyemedik. Lütfen internet bağlantınızı kontrol edin ve sayfayı yeniden yüklemeyi deneyin.",
+        "error404.emptyStates.somethingWentWrong.title": "Bir hata oluştu",
+        "error404.screenTitle": "Sayfa bulunamadı",
+        "error500.cta.label": "Sayfayı yeniden yükle",
+        "error500.description": "Bir hata oluştu. Lütfen sayfayı yeniden yükleyin.",
+        "error500.title": "Bir hata oluştu",
+        "errorScreen.header.payoff": "Bekleyen işlerini hallet"
+       },
+       "dataUpdateCount": 1,
+       "dataUpdatedAt": 1793880461655,
+       "error": null,
+       "errorUpdateCount": 0,
+       "errorUpdatedAt": 0,
+       "fetchFailureCount": 0,
+       "fetchFailureReason": null,
+       "fetchMeta": null,
+       "isInvalidated": false,
+       "status": "success",
+       "fetchStatus": "idle"
+      },
+      "queryKey": [
+       "translations",
+       "user-server-errors",
+       "tr-TR"
+      ],
+      "queryHash": "[\"translations\",\"user-server-errors\",\"tr-TR\"]"
+     },
+     {
+      "dehydratedAt": 1793880461677,
+      "state": {
+       "data": {
+        "navbar.payoff": "Hizmet piş, ağzıma düş",
+        "rating.reviews.label.exceptional": "Olağanüstü",
+        "rating.reviews.label.good": "İyi",
+        "rating.reviews.label.great": "Harika",
+        "rating.reviews.number_one": "({{value}} yorum)",
+        "rating.reviews.number_other": "({{value}} yorum)",
+        "rating.reviews.placeholder": "Henüz yorum yok",
+        "select.bottomSheet.defaultTitle": "Lütfen seç",
+        "sidebar.settings": "Ayarlar",
+        "stepper.label": "Adım {{current}} / {{total}}",
+        "toggleableText.toggle.showLess": "Daha az göster",
+        "toggleableText.toggle.showMore": "Daha fazla göster",
+        "typeahead.noSuggestionsFound": "\"{{value}}\" için sonuç bulunamadı"
+       },
+       "dataUpdateCount": 1,
+       "dataUpdatedAt": 1793880461655,
+       "error": null,
+       "errorUpdateCount": 0,
+       "errorUpdatedAt": 0,
+       "fetchFailureCount": 0,
+       "fetchFailureReason": null,
+       "fetchMeta": null,
+       "isInvalidated": false,
+       "status": "success",
+       "fetchStatus": "idle"
+      },
+      "queryKey": [
+       "translations",
+       "olympus-ui",
+       "tr-TR"
+      ],
+      "queryHash": "[\"translations\",\"olympus-ui\",\"tr-TR\"]"
+     },
+     {
+      "dehydratedAt": 1793880461677,
+      "state": {
+       "data": {
+        "country.name.AT": "Avusturya",
+        "country.name.CH": "İsviçre",
+        "country.name.CZ": "Çekya",
+        "country.name.DE": "Almanya",
+        "country.name.EG": "Mısır",
+        "country.name.ES": "İspanya",
+        "country.name.FR": "Fransa",
+        "country.name.HU": "Macaristan",
+        "country.name.IT": "İtalya",
+        "country.name.PL": "Polonya",
+        "country.name.RO": "Romanya",
+        "country.name.SA": "Suudi Arabistan",
+        "country.name.TR": "Türkiye",
+        "country.name.UK": "İngiltere"
+       },
+       "dataUpdateCount": 1,
+       "dataUpdatedAt": 1793880461655,
+       "error": null,
+       "errorUpdateCount": 0,
+       "errorUpdatedAt": 0,
+       "fetchFailureCount": 0,
+       "fetchFailureReason": null,
+       "fetchMeta": null,
+       "isInvalidated": false,
+       "status": "success",
+       "fetchStatus": "idle"
+      },
+      "queryKey": [
+       "translations",
+       "configuration-intl",
+       "tr-TR"
+      ],
+      "queryHash": "[\"translations\",\"configuration-intl\",\"tr-TR\"]"
+     }
+    ]
+   }
+  },
+  "__N_SSP": true
+ },
+ "page": "/",
+ "query": {},
+ "buildId": "BCv4N4JoCZjPocPNm_4nm",
+ "assetPrefix": "/static-assets/user-seo-pages",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "tr-TR",
+ "locales": [
+  "en-GB",
+  "tr-TR",
+  "ro-RO",
+  "pl-PL",
+  "cs-CZ",
+  "hu-HU",
+  "ar-SA",
+  "ar-EG",
+  "de-AT",
+  "de-CH",
+  "de-DE",
+  "es-ES",
+  "fr-FR",
+  "it-IT"
+ ],
+ "defaultLocale": "tr-TR",
+ "domainLocales": [
+  {
+   "defaultLocale": "tr-TR",
+   "domain": "armut.com",
+   "locales": [
+    "tr-TR"
+   ]
+  },
+  {
+   "defaultLocale": "en-GB",
+   "domain": "homerun.co.uk",
+   "locales": [
+    "en-GB"
+   ]
+  },
+  {
+   "defaultLocale": "ro-RO",
+   "domain": "homerun.ro",
+   "locales": [
+    "ro-RO"
+   ]
+  },
+  {
+   "defaultLocale": "pl-PL",
+   "domain": "homerun.pl",
+   "locales": [
+    "pl-PL"
+   ]
+  },
+  {
+   "defaultLocale": "cs-CZ",
+   "domain": "homerun.co.cz",
+   "locales": [
+    "cs-CZ"
+   ]
+  },
+  {
+   "defaultLocale": "hu-HU",
+   "domain": "homerun.co.hu",
+   "locales": [
+    "hu-HU"
+   ]
+  },
+  {
+   "defaultLocale": "ar-SA",
+   "domain": "homerun.com.sa",
+   "locales": [
+    "ar-SA"
+   ]
+  },
+  {
+   "defaultLocale": "ar-EG",
+   "domain": "homerun.com.eg",
+   "locales": [
+    "ar-EG"
+   ]
+  },
+  {
+   "defaultLocale": "de-AT",
+   "domain": "prontopro.at",
+   "locales": [
+    "de-AT"
+   ]
+  },
+  {
+   "defaultLocale": "de-CH",
+   "domain": "prontopro.ch",
+   "locales": [
+    "de-CH"
+   ]
+  },
+  {
+   "defaultLocale": "de-DE",
+   "domain": "prontopro.de",
+   "locales": [
+    "de-DE"
+   ]
+  },
+  {
+   "defaultLocale": "es-ES",
+   "domain": "prontopro.es",
+   "locales": [
+    "es-ES"
+   ]
+  },
+  {
+   "defaultLocale": "fr-FR",
+   "domain": "prontopro.fr",
+   "locales": [
+    "fr-FR"
+   ]
+  },
+  {
+   "defaultLocale": "it-IT",
+   "domain": "prontopro.it",
+   "locales": [
+    "it-IT"
+   ]
+  }
+ ],
+ "scriptLoader": []
+}
