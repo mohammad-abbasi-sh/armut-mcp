@@ -24,7 +24,7 @@ city slugs like "istanbul", "ankara", "izmir" (use armut_search_services \
 to find valid slugs; Turkish letters in a query are fine). Prices are in \
 Turkish Lira (TRY) unless noted. Read-only, no login, no API key. Be \
 polite: the server spaces requests ~0.8s apart. Built by Mohammad Abbasi \
-(mohammad-abbasi-sh) — Turkey MCP factory.\
+(mohammad-abbasi-sh) — https://almanibama.ir · https://mabbasi.ir — Turkey MCP factory.\
 """
 
 
