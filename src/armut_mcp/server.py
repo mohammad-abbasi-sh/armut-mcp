@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 import sys
 
 from mcp.server.fastmcp import FastMCP
@@ -28,8 +29,24 @@ polite: the server spaces requests ~0.8s apart. Built by Mohammad Abbasi \
 """
 
 
+_SOURCE = "armut.com"
+_DISCLAIMER = "Unofficial read-only data from armut.com; verify on the site before acting on it."
+
+
+def _envelope() -> dict:
+    return {
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "source": _SOURCE,
+        "disclaimer": _DISCLAIMER,
+    }
+
+
+def _ok(payload: dict) -> str:
+    return json.dumps({**_envelope(), **payload}, ensure_ascii=False)
+
+
 def _err(e: Exception) -> str:
-    return json.dumps({"error": str(e)}, ensure_ascii=False)
+    return _ok({"error": str(e)})
 
 
 @mcp.tool()
@@ -44,9 +61,7 @@ service-page URL for each match (use the slug with the other tools)."""
         rows = _S.search_services(entries, query, limit=limit)
     except _http.ArmutError as e:
         return _err(e)
-    return json.dumps(
-        {"query": query, "count": len(rows), "services": rows},
-        ensure_ascii=False)
+    return _ok({"query": query, "count": len(rows), "services": rows})
 
 
 @mcp.tool()
@@ -60,7 +75,7 @@ armut_search_services)."""
         d = _S.parse_service_detail(html)
     except _http.ArmutError as e:
         return _err(e)
-    return json.dumps(d, ensure_ascii=False)
+    return _ok(d)
 
 
 @mcp.tool()
@@ -77,11 +92,9 @@ that city; limit: 1..40 (the page lists up to 40)."""
         detail = _S.parse_service_detail(html)
     except _http.ArmutError as e:
         return _err(e)
-    return json.dumps(
-        {"service": detail.get("name", service_slug),
+    return _ok({"service": detail.get("name", service_slug),
          "service_slug": service_slug, "city": city or "Türkiye geneli",
-         "count": len(pros), "pros": pros},
-        ensure_ascii=False)
+         "count": len(pros), "pros": pros})
 
 
 @mcp.tool()
@@ -93,9 +106,7 @@ service page's FAQ schema). service_slug: e.g. "ev-temizligi"."""
         faqs = _S.parse_faq(html)
     except _http.ArmutError as e:
         return _err(e)
-    return json.dumps(
-        {"service_slug": service_slug, "count": len(faqs), "faq": faqs},
-        ensure_ascii=False)
+    return _ok({"service_slug": service_slug, "count": len(faqs), "faq": faqs})
 
 
 @mcp.tool()
@@ -115,7 +126,7 @@ optional slug like "adana" for that city's guide (default: all Türkiye)."""
         guide = _S.parse_price_page(_S.extract_next_data(page))
     except _http.ArmutError as e:
         return _err(e)
-    return json.dumps(guide, ensure_ascii=False)
+    return _ok(guide)
 
 
 @mcp.tool()
@@ -129,7 +140,17 @@ city+service combos."""
         data = _S.parse_homepage(_S.extract_next_data(html))
     except _http.ArmutError as e:
         return _err(e)
-    return json.dumps(data, ensure_ascii=False)
+    return _ok(data)
+
+
+@mcp.tool()
+def armut_health() -> str:
+    """Check whether armut.com is reachable right now.
+
+    Returns status ok (HTTP 200), blocked (HTTP 403/429 — bot wall or
+    rate limit) or error, plus the HTTP status and the probed URL.
+    One polite request; it does not fetch any listings."""
+    return _ok(_http.health_check())
 
 
 def main() -> None:
