@@ -13,7 +13,7 @@
   "mcpServers": {
     "armut": {
       "command": "uvx",
-      "args": ["armut-mcp==0.1.0"]
+      "args": ["armut-mcp==0.1.1"]
     }
   }
 }
