@@ -15,13 +15,13 @@ Add to your MCP client config (stdio):
   "mcpServers": {
     "armut": {
       "command": "uvx",
-      "args": ["armut-mcp"]
+      "args": ["armut-mcp==0.1.0"]
     }
   }
 }
 ```
 
-Or run locally: `python -m armut_mcp.server` (needs `mcp<2`, `httpx`).
+Or run locally: `python -m armut_mcp.server` (needs `mcp<2`, `curl-cffi`).
 
 ## Tools
 
@@ -82,7 +82,7 @@ Notes:
 ## Development
 
 ```bash
-python3 -m venv .venv && .venv/bin/pip install "mcp<2" httpx pytest
+python3 -m venv .venv && .venv/bin/pip install "mcp<2" curl-cffi pytest
 .venv/bin/pip install -e .
 .venv/bin/python -m pytest tests/ -q
 ```
