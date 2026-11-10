@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "armut-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Unofficial read-only MCP server for armut.com local services (search, pros, FAQs, price guides)"
 readme = "README.md"
 license = { text = "MIT" }
